@@ -1,0 +1,162 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+/* grid for placing the moves */
+.grid {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    width: 360px;
+    height: 360px;
+    background-color:grey;
+    position: absolute;
+    z-index: 0;
+}
+
+/* contains the game */
+.container {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    background-image: url(image/background.png);
+    background-repeat: repeat;
+    width: 320px;
+    height: 320px;
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+/* Player 1 game */
+
+.playerOne {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    width: 320px;
+    height: 80px;
+    
+}
+.playerTwo {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    width: 320px;
+    height: 80px;
+    grid-column-start: 1;
+    grid-row-start: 7;
+
+}
+
+.box {
+    text-align: center;
+}
+.boxN {
+    text-align: center;
+}
+
+/* test */
+#rook-one-1 {
+    display: grid;
+    grid-area: 4;
+    
+}
+#knight-one-1{
+
+}
+#bishop-one-1{
+
+}
+#king-one{
+    
+}
+#queen-one {
+
+}
+#bishop-one-2 {
+
+}
+#knight-one-2 {
+
+}
+#rook-one-2 {
+
+}
+#pawn-one-1 {
+
+}
+#pawn-one-2 {
+
+}
+#pawn-one-3 {
+
+}
+#pawn-one-4 {
+
+}
+#pawn-one-5 {
+
+}
+#pawn-one-6 {
+
+}
+#pawn-one-7 {
+
+}
+#pawn-one-8 {
+    
+    
+}
+
+/* Player 2 game */
+#rook-two-1 {
+
+}
+#knight-two-1 {
+
+}
+#bishop-two-1 {
+
+}
+#king-two {
+
+}
+#queen-two {
+
+}
+#bishop-two-2 {
+
+}
+#knight-two-2 {
+
+}
+#rook-two-2 {
+
+}
+#pawn-two-1 {
+
+}
+#pawn-two-2 {
+
+}
+#pawn-two-3 {
+
+}
+#pawn-two-4 {
+
+}
+#pawn-two-5 {
+
+}
+#pawn-two-6 {
+
+}
+#pawn-two-7 {
+
+}
+#pawn-two-8 {
+
+}
